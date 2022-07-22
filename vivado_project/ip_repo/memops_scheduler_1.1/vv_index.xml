@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="/home/oem/Research/git/ip_repo/memops_scheduler_1.1">
+	</Repository>
+	<IP>
+		<VLNV value="user.org:user:memops_scheduler:1.1">
+		</VLNV>
+		<DisplayName value="memops_scheduler_v1.1">
+		</DisplayName>
+		<Description value="My new AXI IP">
+		</Description>
+		<CoreRevision value="185">
+		</CoreRevision>
+		<ComponentPath value="component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="virtexuplus">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<LockPrevVersions value="false">
+		</LockPrevVersions>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+

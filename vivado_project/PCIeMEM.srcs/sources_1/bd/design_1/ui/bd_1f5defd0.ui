@@ -1,0 +1,229 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 TLS
+#  -string -flagsOSRD
+preplace port user_si570_clock -pg 1 -y 2480 -defaultsOSRD
+preplace port pcie_refclk -pg 1 -y 3590 -defaultsOSRD
+preplace port pci_express_x4 -pg 1 -y 3380 -defaultsOSRD
+preplace port ddr4_sdram_c1 -pg 1 -y 3030 -defaultsOSRD
+preplace port pcie_perstn -pg 1 -y 3520 -defaultsOSRD
+preplace port reset -pg 1 -y 2880 -defaultsOSRD
+preplace port default_250mhz_clk1 -pg 1 -y 2860 -defaultsOSRD
+preplace inst undolog_1 -pg 1 -lvl 6 -y 3570 -defaultsOSRD
+preplace inst axi_data_fifo_2 -pg 1 -lvl 15 -y 1030 -defaultsOSRD
+preplace inst axis_data_fifo_1 -pg 1 -lvl 8 -y 2700 -defaultsOSRD
+preplace inst memops_scheduler_1 -pg 1 -lvl 4 -y 1250 -defaultsOSRD
+preplace inst undolog_2 -pg 1 -lvl 6 -y 1260 -defaultsOSRD
+preplace inst axi_data_fifo_3 -pg 1 -lvl 16 -y 1040 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 10 -y 960 -defaultsOSRD
+preplace inst axis_data_fifo_2 -pg 1 -lvl 8 -y 2490 -defaultsOSRD
+preplace inst axi_dma_0 -pg 1 -lvl 10 -y 4570 -defaultsOSRD
+preplace inst undolog_3 -pg 1 -lvl 6 -y 2420 -defaultsOSRD
+preplace inst addrmonitor_0 -pg 1 -lvl 2 -y 2700 -defaultsOSRD
+preplace inst gate_axi_0 -pg 1 -lvl 19 -y 1940 -defaultsOSRD
+preplace inst axi_data_fifo_4 -pg 1 -lvl 17 -y 1040 -defaultsOSRD
+preplace inst smartconnect_1 -pg 1 -lvl 18 -y 2440 -defaultsOSRD
+preplace inst axis_data_fifo_3 -pg 1 -lvl 8 -y 3970 -defaultsOSRD
+preplace inst axi_dma_1 -pg 1 -lvl 10 -y 2580 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y 2590 -defaultsOSRD
+preplace inst axi_data_fifo_5 -pg 1 -lvl 12 -y 1330 -defaultsOSRD
+preplace inst axis_data_fifo_4 -pg 1 -lvl 6 -y 190 -defaultsOSRD
+preplace inst axi_dma_2 -pg 1 -lvl 10 -y 2360 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 4 -y 2690 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 20 -y 2510 -defaultsOSRD
+preplace inst axi_data_fifo_10 -pg 1 -lvl 16 -y 1380 -defaultsOSRD
+preplace inst axi_data_fifo_6 -pg 1 -lvl 13 -y 1360 -defaultsOSRD
+preplace inst axis_data_fifo_5 -pg 1 -lvl 6 -y 760 -defaultsOSRD
+preplace inst axi_dma_3 -pg 1 -lvl 10 -y 3750 -defaultsOSRD
+preplace inst axi_data_fifo_7 -pg 1 -lvl 14 -y 1360 -defaultsOSRD
+preplace inst axi_register_slice_0 -pg 1 -lvl 12 -y 950 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 4 -y 2450 -defaultsOSRD
+preplace inst axis_data_fifo_6 -pg 1 -lvl 6 -y 500 -defaultsOSRD
+preplace inst axi_dma_4 -pg 1 -lvl 8 -y 190 -defaultsOSRD
+preplace inst rst_ddr4_0_300M_1 -pg 1 -lvl 2 -y 2230 -defaultsOSRD
+preplace inst axi_data_fifo_8 -pg 1 -lvl 15 -y 1400 -defaultsOSRD
+preplace inst axis_data_fifo_7 -pg 1 -lvl 6 -y 1760 -defaultsOSRD
+preplace inst axi_dma_5 -pg 1 -lvl 8 -y 830 -defaultsOSRD
+preplace inst rst_ddr4_0_300M_2 -pg 1 -lvl 10 -y 1780 -defaultsOSRD
+preplace inst axi_data_fifo_9 -pg 1 -lvl 12 -y 1850 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 1730 -defaultsOSRD
+preplace inst axi_dma_6 -pg 1 -lvl 8 -y 520 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -y 2770 -defaultsOSRD
+preplace inst axi_dma_7 -pg 1 -lvl 8 -y 1610 -defaultsOSRD
+preplace inst rst_ddr4_0_300M -pg 1 -lvl 6 -y 2930 -defaultsOSRD
+preplace inst xdma_0 -pg 1 -lvl 11 -y 2100 -defaultsOSRD
+preplace inst ddr4_0 -pg 1 -lvl 21 -y 3090 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 9 -y 2830 -defaultsOSRD
+preplace inst ila_2 -pg 1 -lvl 5 -y 1660 -defaultsOSRD
+preplace inst AXI_Lite_slave_plug_0 -pg 1 -lvl 21 -y 2750 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -y 2390 -defaultsOSRD
+preplace inst ila_3 -pg 1 -lvl 9 -y 5420 -defaultsOSRD
+preplace inst axi_data_fifo_0 -pg 1 -lvl 13 -y 990 -defaultsOSRD
+preplace inst undolog_0 -pg 1 -lvl 8 -y 5280 -defaultsOSRD
+preplace inst axi_data_fifo_1 -pg 1 -lvl 14 -y 840 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 8 -y 5820 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 7 -y 3800 -defaultsOSRD
+preplace netloc axi_dma_5_M_AXIS_MM2S 1 5 4 2710J 40 NJ 40 3670 10 4190
+preplace netloc xdma_0_m_axib_awaddr 1 1 11 680J 2060 NJ 2060 NJ 2060 2350J 1890 NJ 1890 NJ 1890 NJ 1890 NJ 1890 N 1890 4970 1860 5430
+preplace netloc axi_dma_7_M_AXI_S2MM 1 8 2 4130 960 N
+preplace netloc addrmonitor_0_state 1 2 1 N
+preplace netloc undolog_2_M00_AXI 1 6 2 3220 140 N
+preplace netloc axis_data_fifo_3_M_AXIS 1 8 2 4140 3720 N
+preplace netloc xdma_0_axi_aresetn 1 1 19 720J 2880 1530J 2110 NJ 2110 NJ 2110 2750J 1960 NJ 1960 N 1960 N 1960 4500 1950 4990 1830 5490 1080 5890 1080 6780 1050 7180 1120 7400 1130 7640 1130 7930 1770 8580 1730 9530
+preplace netloc axi_data_fifo_7_M_AXI 1 14 1 7170
+preplace netloc axis_data_fifo_7_M_AXIS 1 6 2 N 1730 3670
+preplace netloc axi_dma_3_M_AXI_MM2S 1 10 10 5010 2650 N 2650 N 2650 N 2650 N 2650 N 2650 N 2650 N 2650 N 2650 N
+preplace netloc axi_dma_2_M_AXI_S2MM 1 10 10 N 2320 5480 2220 N 2220 N 2220 N 2220 N 2220 N 2220 N 2220 N 2220 9480
+preplace netloc axi_smc_M00_AXI 1 20 1 10140
+preplace netloc axis_data_fifo_5_M_AXIS 1 6 2 N 730 3650
+preplace netloc smartconnect_1_M00_AXI_bready 1 18 1 8520
+preplace netloc undolog_0_datacpy_done 1 8 1 4140
+preplace netloc smartconnect_1_M00_AXI_wvalid 1 18 1 8490
+preplace netloc axi_smc_S00_AXI_awready 1 18 2 8560 2270 N
+preplace netloc smartconnect_1_M00_AXI 1 18 2 N 2300 9590
+preplace netloc memops_scheduler_1_start_count 1 4 1 2370
+preplace netloc addrmonitor_0_m00_axi_wdata 1 2 10 1440 650 NJ 650 NJ 650 NJ 650 NJ 650 3650J 700 NJ 700 NJ 700 NJ 700 5470J
+preplace netloc undolog_2_M01_AXI 1 6 2 3230 780 N
+preplace netloc undolog_0_regout 1 8 1 4190
+preplace netloc axi_dma_6_m_axis_mm2s_tvalid 1 5 4 2770J 360 NJ 360 N 360 4110
+preplace netloc rst_ddr4_0_300M_1_peripheral_aresetn 1 2 6 1470 2020 1820 1820 N 1820 2730 3140 N 3140 3600
+preplace netloc xdma_0_m_axib_awvalid 1 1 11 690J 2080 NJ 2080 NJ 2080 NJ 2080 2630J 1920 NJ 1920 NJ 1920 NJ 1920 4460 1910 5000 1870 5420
+preplace netloc axi_data_fifo_9_M_AXI 1 12 6 N 1850 N 1850 N 1850 N 1850 N 1850 7950
+preplace netloc memops_scheduler_1_ndp_start 1 4 1 2340
+preplace netloc addrmonitor_0_pmem_obj_offset_valid 1 2 2 1490 1260 N
+preplace netloc smartconnect_1_M00_AXI_awaddr 1 18 1 8470
+preplace netloc axi_dma_1_M_AXI_MM2S 1 10 10 N 2520 5470 2200 N 2200 N 2200 N 2200 N 2200 N 2200 N 2200 N 2200 9520
+preplace netloc gate_axi_0_rvalid_out 1 18 2 N 2540 9450
+preplace netloc axi_smc_S00_AXI_bvalid 1 18 2 8590 2350 N
+preplace netloc undolog_0_M01_AXI 1 8 2 4130 2530 N
+preplace netloc undolog_0_M00_AXI 1 8 2 4170 4520 N
+preplace netloc undolog_0_data_copy_pulse 1 8 1 4160
+preplace netloc pcie_refclk_1 1 0 7 NJ 3590 NJ 3590 NJ 3590 NJ 3590 NJ 3590 2770J 3120 3220J
+preplace netloc axi_data_fifo_5_M_AXI 1 12 1 5870
+preplace netloc memops_scheduler_1_M00_AXI 1 4 4 2380J 670 NJ 670 NJ 670 3630
+preplace netloc axi_dma_6_M_AXI_S2MM 1 8 2 N 440 4470
+preplace netloc undolog_0_log_size 1 8 1 4110
+preplace netloc util_ds_buf_0_IBUF_OUT 1 7 4 3650 2100 N 2100 N 2100 N
+preplace netloc gate_axi_0_wready_out 1 18 2 N 2440 9440
+preplace netloc ddr4_0_c0_ddr4_ui_clk_sync_rst 1 1 21 720 2130 N 2130 1810 2130 N 2130 2770J 1970 3280J 1840 N 1840 4150 1760 4560J 1670 NJ 1670 N 1670 N 1670 N 1670 N 1670 N 1670 N 1670 N 1670 N 1670 N 1670 N 1670 10580
+preplace netloc gate_axi_0_bready_out 1 19 1 9620
+preplace netloc undolog_3_M01_AXI 1 6 2 3270 1720 3660
+preplace netloc axi_dma_3_M_AXI_S2MM 1 10 10 5040 2660 N 2660 N 2660 N 2660 N 2660 N 2660 N 2660 N 2660 8590 2630 N
+preplace netloc smartconnect_1_M00_AXI_arvalid 1 18 1 8500
+preplace netloc undolog_1_M00_AXI 1 6 4 N 3200 N 3200 N 3200 4470
+preplace netloc memops_scheduler_1_offset_read_addr 1 1 4 650J 730 NJ 730 NJ 730 2280
+preplace netloc axi_dma_5_M_AXI_S2MM 1 8 2 N 790 4460
+preplace netloc smartconnect_1_M00_AXI_wlast 1 18 2 8530 2290 N
+preplace netloc axi_smc_S00_AXI_rvalid 1 18 2 8570 2430 N
+preplace netloc xdma_0_M_AXI_B 1 11 1 5450
+preplace netloc undolog_3_M00_AXI 1 6 2 3240 480 3670
+preplace netloc undolog_0_M02_AXI 1 8 12 4120 2400 4540J 2240 5040J 2300 5450J 2230 NJ 2230 NJ 2230 NJ 2230 NJ 2230 NJ 2230 NJ 2230 NJ 2230 9510J
+preplace netloc axi_dma_4_m_axis_mm2s_tvalid 1 5 4 2770J 30 NJ 30 3630 0 4150
+preplace netloc axi_dma_0_m_axis_mm2s_tlast 1 7 4 3670J 4820 NJ 4820 N 4820 4980
+preplace netloc smartconnect_1_M00_AXI_awvalid 1 18 1 8450
+preplace netloc axi_dma_0_m_axis_mm2s_tkeep 1 7 4 3680J 4830 NJ 4830 N 4830 5010
+preplace netloc xlconstant_1_dout 1 4 4 2370 1900 2610J 1900 NJ 1900 3620J
+preplace netloc axis_data_fifo_1_M_AXIS 1 8 2 4180 2550 N
+preplace netloc xdma_0_m_axib_wvalid 1 1 11 710J 2100 NJ 2100 NJ 2100 NJ 2100 2690J 1950 NJ 1950 NJ 1950 NJ 1950 4490 1940 5010 1850 5440
+preplace netloc rst_ddr4_0_300M_interconnect_aresetn 1 6 2 N 2950 3660
+preplace netloc axi_dma_4_M_AXI_MM2S 1 8 2 N 90 4570
+preplace netloc smartconnect_0_M00_AXI 1 10 10 5040 830 N 830 N 830 6760 920 N 920 N 920 N 920 N 920 N 920 9630
+preplace netloc axi_dma_3_M_AXIS_MM2S 1 7 4 3690J 2390 NJ 2390 4460 2230 4990
+preplace netloc axi_dma_6_m_axis_mm2s_tlast 1 5 4 2750J 60 NJ 60 3690 30 4130
+preplace netloc mdm_1_debug_sys_rst 1 3 1 1790
+preplace netloc rst_ddr4_0_300M_peripheral_aresetn 1 6 4 N 2970 N 2970 N 2970 4570
+preplace netloc axi_dma_4_m_axis_mm2s_tkeep 1 5 4 2720J -40 NJ -40 N -40 4180
+preplace netloc gate_axi_0_awready_out 1 18 2 N 2380 9460
+preplace netloc memops_scheduler_1_M01_AXI 1 4 2 NJ 810 2640
+preplace netloc axi_dma_7_M_AXIS_MM2S 1 5 4 2770J 1850 NJ 1850 N 1850 4110
+preplace netloc smartconnect_1_M00_AXI_awqos 1 18 2 8510 2240 9600
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 4 4 N 2490 2700 350 N 350 3690
+preplace netloc axi_data_fifo_1_M_AXI 1 14 1 7190
+preplace netloc axi_dma_7_M_AXI_MM2S 1 8 2 4180 980 N
+preplace netloc axi_dma_4_M_AXI_S2MM 1 8 2 N 110 4560
+preplace netloc axi_dma_2_M_AXIS_MM2S 1 7 4 3700J 2380 NJ 2380 4530 2220 4970
+preplace netloc gate_axi_0_bvalid_out 1 18 2 N 2460 9430
+preplace netloc axi_dma_0_M_AXI_MM2S 1 10 10 5030 2350 N 2350 N 2350 N 2350 N 2350 N 2350 N 2350 7940 2190 N 2190 9560
+preplace netloc addrmonitor_0_count 1 2 1 1520
+preplace netloc microblaze_0_Clk 1 1 19 NJ 2370 NJ 2370 1820 2350 N 2350 2620 370 N 370 3680 1490 N 1490 4510J 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 NJ 1490 9580J
+preplace netloc default_250mhz_clk1_1 1 0 21 -190J 2030 NJ 2030 NJ 2030 NJ 2030 2320J 1870 NJ 1870 NJ 1870 NJ 1870 NJ 1870 4510J 1880 NJ 1880 5480J 1930 NJ 1930 NJ 1930 NJ 1930 NJ 1930 NJ 1930 NJ 1930 8480J 2140 9560J 2130 10190J
+preplace netloc smartconnect_1_M01_AXI 1 3 16 1820 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 N -10 N -10 N -10 N -10 N -10 N -10 8440
+preplace netloc axi_dma_5_M_AXI_MM2S 1 8 2 N 770 4500
+preplace netloc addrmonitor_0_virtualaddr 1 2 1 1460
+preplace netloc xdma_0_m_axib_wdata 1 1 11 700J 2090 NJ 2090 NJ 2090 NJ 2090 2650J 1940 NJ 1940 NJ 1940 NJ 1940 4480 1930 5020 1890 5410
+preplace netloc memops_scheduler_1_offset_read_enable 1 1 4 670J 2040 NJ 2040 NJ 2040 2290
+preplace netloc axi_dma_0_M_AXI_S2MM 1 10 10 5020 2330 5500 2240 N 2240 N 2240 N 2240 N 2240 N 2240 N 2240 8460 2250 9500
+preplace netloc gate_axi_0_arready_out 1 18 2 N 2520 9470
+preplace netloc gate_axi_0_wvalid_out 1 19 1 9660
+preplace netloc axi_data_fifo_8_M_AXI 1 15 1 7390
+preplace netloc axis_data_fifo_2_M_AXIS 1 8 2 4110 2430 4560
+preplace netloc smartconnect_1_M00_AXI_rready 1 18 1 8540
+preplace netloc ddr4_0_c0_ddr4_ui_clk 1 9 13 4570 1660 4990 1680 N 1680 N 1680 N 1680 N 1680 N 1680 N 1680 N 1680 N 1680 9550 2890 10180 2890 10560
+preplace netloc ddr4_0_addn_ui_clkout1 1 1 21 660 1800 N 1800 1800 1770 2330 1500 2710 1980 N 1980 3590 2840 4160 2900 4520 1960 4980 1820 5480 1770 N 1770 N 1770 N 1770 N 1770 N 1770 7920 1780 8590 1740 9540 2120 N 2120 10570
+preplace netloc axis_data_fifo_0_M_AXIS 1 8 2 4180 4540 N
+preplace netloc axis_data_fifo_6_M_AXIS 1 6 2 N 470 3630
+preplace netloc memops_scheduler_1_vaddr_offset_count 1 4 1 2310
+preplace netloc xdma_0_axi_aclk 1 1 19 710J 2890 1510J 2050 NJ 2050 2340J 1880 NJ 1880 NJ 1880 N 1880 N 1880 4470 1900 4960 1840 5470 1070 5880 1070 6770 1030 7190 1110 7410 1120 7630 1120 7960 1760 8570 1720 9570
+preplace netloc axis_data_fifo_4_s_axis_tready 1 5 4 2760J -20 NJ -20 N -20 4160
+preplace netloc axi_data_fifo_4_M_AXI 1 11 7 5510 820 NJ 820 6740J 930 NJ 930 NJ 930 NJ 930 7960
+preplace netloc axis_data_fifo_4_M_AXIS 1 6 2 N 160 N
+preplace netloc axi_smc_M01_AXI 1 20 1 10150
+preplace netloc axi_smc_S00_AXI_wready 1 18 2 8580 2330 N
+preplace netloc addrmonitor_0_pmem_obj_offset 1 2 2 1430 1240 N
+preplace netloc gate_axi_0_awvalid_out 1 19 1 9670
+preplace netloc xdma_0_pcie_mgt 1 11 11 5500J 1750 NJ 1750 NJ 1750 NJ 1750 NJ 1750 NJ 1750 NJ 1750 8560J 1710 NJ 1710 NJ 1710 10590J
+preplace netloc addrmonitor_0_physicaladdr 1 2 1 1500
+preplace netloc pcie_perstn_1 1 0 11 -160J 2120 NJ 2120 NJ 2120 NJ 2120 NJ 2120 2760J 1990 NJ 1990 NJ 1990 NJ 1990 N 1990 5000
+preplace netloc axis_data_fifo_0_s_axis_tready 1 7 4 3700J 4850 NJ 4850 N 4850 4990
+preplace netloc axi_register_slice_0_M_AXI 1 12 1 5890
+preplace netloc addrmonitor_0_m00_axi_wvalid 1 2 10 1450J 660 NJ 660 NJ 660 NJ 660 NJ 660 3640J 710 NJ 710 NJ 710 NJ 710 5460J
+preplace netloc axi_dma_0_m_axis_mm2s_tvalid 1 7 4 3690J 4840 NJ 4840 N 4840 4970
+preplace netloc undolog_2_M02_AXI 1 6 4 NJ 930 3590 950 4150 900 N
+preplace netloc undolog_1_M01_AXI 1 6 4 3240 2400 N 2400 4110 2410 4550
+preplace netloc util_ds_buf_0_IBUF_DS_ODIV2 1 7 4 3640 2080 N 2080 N 2080 N
+preplace netloc axi_dma_6_m_axis_mm2s_tkeep 1 5 4 2740J 50 NJ 50 3680 20 4140
+preplace netloc gate_axi_0_awaddr_out 1 19 1 9640
+preplace netloc axis_data_fifo_6_s_axis_tready 1 5 4 2760J 340 NJ 340 3700 350 4120
+preplace netloc axi_smc_M02_AXI 1 10 11 5040 1660 N 1660 N 1660 N 1660 N 1660 N 1660 N 1660 N 1660 N 1660 N 1660 10130
+preplace netloc memops_scheduler_0_ndp_not_inuse 1 4 15 2300J 1830 2670 1930 N 1930 N 1930 N 1930 4470 1920 5030 1900 5460 2080 N 2080 N 2080 N 2080 N 2080 N 2080 N 2080 N
+preplace netloc axi_dma_6_M_AXI_MM2S 1 8 2 N 420 4520
+preplace netloc axi_dma_2_M_AXI_MM2S 1 10 10 5030 2310 5420 2210 N 2210 N 2210 N 2210 N 2210 N 2210 N 2210 N 2210 9490
+preplace netloc undolog_0_ulog_offset 1 8 1 4130
+preplace netloc addrmonitor_0_m00_axi_awvalid 1 2 10 1480J 1300 1810J 640 NJ 640 NJ 640 NJ 640 3660J 690 NJ 690 NJ 690 NJ 690 5490J
+preplace netloc memops_scheduler_1_M02_AXI 1 4 2 NJ 830 2740
+preplace netloc undolog_0_log_src 1 8 1 4120
+preplace netloc rst_ddr4_0_300M_2_peripheral_aresetn 1 10 11 4960J 1810 5460 1740 N 1740 N 1740 N 1740 N 1740 N 1740 N 1740 8450 1700 N 1700 10160
+preplace netloc axi_dma_4_m_axis_mm2s_tlast 1 5 4 2730J -30 NJ -30 N -30 4170
+preplace netloc axi_dma_1_M_AXIS_MM2S 1 7 4 3680J 2370 NJ 2370 4470 2210 5010
+preplace netloc memops_scheduler_1_offset_reg1_valid 1 4 1 2320
+preplace netloc axi_data_fifo_3_M_AXI 1 16 1 7620
+preplace netloc axi_data_fifo_2_M_AXI 1 15 1 7410
+preplace netloc memops_scheduler_1_M03_AXI 1 4 2 NJ 850 2680
+preplace netloc undolog_3_M02_AXI 1 6 4 3260J 1710 3650 1480 N 1480 4460
+preplace netloc xlconstant_0_dout 1 4 4 N 2590 2660 3130 N 3130 3610
+preplace netloc axi_data_fifo_10_M_AXI 1 11 6 5510 1760 NJ 1760 NJ 1760 NJ 1760 NJ 1760 7630
+preplace netloc axi_dma_1_M_AXI_S2MM 1 10 10 N 2540 N 2540 N 2540 N 2540 N 2540 N 2540 N 2540 7940 2640 8570 2550 N
+preplace netloc memops_scheduler_1_offset_reg2_valid 1 4 1 2350
+preplace netloc ddr4_0_C0_DDR4 1 21 1 NJ
+preplace netloc memops_scheduler_1_mst_exec_state 1 4 1 2350
+preplace netloc axi_smc_S00_AXI_arready 1 18 2 8550 2410 N
+preplace netloc axi_data_fifo_0_M_AXI 1 13 1 6750
+preplace netloc memops_scheduler_1_done_count 1 4 1 2380
+preplace netloc addrmonitor_0_offset 1 2 1 N
+preplace netloc reset_1 1 0 21 -180J 2070 NJ 2070 NJ 2070 NJ 2070 NJ 2070 2610J 1910 3250J 1740 NJ 1740 4160J 1680 NJ 1680 4980J 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 NJ 1690 10170J
+preplace netloc gate_axi_0_arvalid_out 1 19 1 9650
+preplace netloc user_si570_clock_1 1 0 1 -170J
+preplace netloc axi_data_fifo_6_M_AXI 1 13 1 6750
+preplace netloc undolog_1_M02_AXI 1 6 14 3270 2610 N 2610 4160 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 NJ 2700 8580J 2570 NJ
+preplace netloc memops_scheduler_1_ndp_done 1 4 1 2360
+preplace netloc gate_axi_0_rready_out 1 19 1 9610
+preplace netloc addrmonitor_0_m00_axi_awaddr 1 2 10 1460J 1280 1790J 630 NJ 630 NJ 630 NJ 630 3670J 680 NJ 680 NJ 680 NJ 680 5500J
+levelinfo -pg 1 -210 530 1230 1680 2090 2510 3030 3440 3920 4360 4770 5240 5700 6640 7070 7290 7520 7820 8250 9260 9940 10380 10610 -top -200 -bot 6050
+",
+}
+{
+   da_axi4_cnt: "11",
+   da_board_cnt: "2",
+   da_clkrst_cnt: "15",
+   da_mb_cnt: "1",
+}
