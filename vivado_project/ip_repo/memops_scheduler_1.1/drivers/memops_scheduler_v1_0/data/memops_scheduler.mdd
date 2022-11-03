@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER memops_scheduler
+	OPTION supported_peripherals = (memops_scheduler);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = memops_scheduler;
+END DRIVER

@@ -1,0 +1,10 @@
+STD=-std=gnu99
+WARN=-Wall -W
+OPT=-O2
+MALLOC=jemalloc
+CFLAGS=
+LDFLAGS=
+REDIS_CFLAGS=
+REDIS_LDFLAGS=
+PREV_FINAL_CFLAGS=-std=gnu99 -Wall -W -O2 -g -ggdb -I../deps/geohash-int -I../deps/hiredis -I../deps/linenoise -I../deps/lua/src -DUSE_JEMALLOC -I../deps/jemalloc/include -I../deps/pmdk/src/include -I../deps/pmdk/src/libpmemobj -I../deps/pmdk/src/common -DUSE_PMDK
+PREV_FINAL_LDFLAGS= -g -ggdb -rdynamic
